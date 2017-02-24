@@ -1,0 +1,34 @@
+ul.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+    li{
+    float: left;
+        a {
+            display: inline-block;
+            color: slategrey;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        a:hover {color: #ce252a;}
+    }
+    li:last-of-type{
+        float: right;
+        border: none;
+    }
+    .divided+.divided{
+        border-left: 1px solid lightgray; 
+    }
+
+}
+
+#topnav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,63 +1,59 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-h1{
-     font-family: sans-serif;
-     font-size: 3em;
-     margin-top: 0;
-     margin-bottom: 5px;
-}
-p{
-    font-family: sans-serif;
-     font-size: 2em;
-     margin: 0;
-}
-.have-margins{
-    margin-left: 12%;
-    margin-right: 12%;
-}
-ul.topnav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-ul.topnav li{
-    float: left;
-}
-ul.topnav li a {
-    display: inline-block;
-    color: slategrey;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-li.divided+li.divided{
-    border-left: 1px solid lightgray; 
-}
-ul.topnav li a:hover {color: #ce252a;}
-#signup{
-    height: 450px;
-    background: url('../images/bg-darker.jpg');
-    background-size: 100% 600px;
-    background-repeat: no-repeat;
-}
-#signup #text{
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white; }
+  ul.topnav li {
+    float: left; }
+    ul.topnav li a {
+      display: inline-block;
+      color: slategrey;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 17px; }
+    ul.topnav li a:hover {
+      color: #ce252a; }
+  ul.topnav li:last-of-type {
+    float: right;
+    border: none; }
+  ul.topnav .divided + .divided {
+    border-left: 1px solid lightgray; }
+
+#topnav {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#signup {
+  height: 450px;
+  background: url("../images/bg-darker.jpg");
+  background-size: 100% 600px;
+  background-repeat: no-repeat; }
+  #signup #text {
     width: 40%;
     text-align: left;
     color: black;
-    padding: 10px 0 10px 0;
-}
-#topnav{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    padding: 10px 0 10px 0; }
 
-ul.topnav li:last-of-type{
-    float: right;
-    border: none;
-}
+body {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 5px; }
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 0; }
+
+.have-margins {
+  margin-left: 12%;
+  margin-right: 12%; }
+
+/*# sourceMappingURL=main.css.map */
