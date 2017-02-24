@@ -1,11 +1,13 @@
 class TopNav extends React.Component{
     render(){
-        return(
+        return(        
             <div className="have-margins" id="topnav">
+                
                 <ul className="topnav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><img src="./images/logo.png" width="50px" height="50px"/></li>
+                    <li className="divided"><a href="#">Home</a></li>
+                    <li className="divided"><a href="#">About</a></li>
+                    <li className="divided"><a href="#">Contact</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
             </div>

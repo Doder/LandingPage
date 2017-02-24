@@ -36,7 +36,7 @@ ul.topnav li a {
     transition: 0.3s;
     font-size: 17px;
 }
-ul.topnav li+li{
+li.divided+li.divided{
     border-left: 1px solid lightgray; 
 }
 ul.topnav li a:hover {color: #ce252a;}
