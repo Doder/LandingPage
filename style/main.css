@@ -37,7 +37,6 @@ ul.topnav li a {
     font-size: 17px;
 }
 ul.topnav li+li{
-    
     border-left: 1px solid lightgray; 
 }
 ul.topnav li a:hover {color: #ce252a;}
@@ -56,4 +55,9 @@ ul.topnav li a:hover {color: #ce252a;}
 #topnav{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+ul.topnav li:last-of-type{
+    float: right;
+    border: none;
 }
