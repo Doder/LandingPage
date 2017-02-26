@@ -25,6 +25,20 @@ class SingnUp extends React.Component{
                     <p>Sign up for more free content.</p>
                     
                  </div>
+                 <div id="form" className="have-margins">
+                     <h1>Sign up</h1>
+                    <form>
+                        <label>Username:</label><br/>
+                            <input type="text"/>
+                        <br/>
+                        <label>Email:</label><br/>
+                            <input type="text"/>
+                        <br/>
+                        <label>Password:</label><br/>
+                            <input type="password"/><br/>
+                        <input type="submit" value="submit"/>
+                    </form>
+                </div>
             </div>
         );
     }

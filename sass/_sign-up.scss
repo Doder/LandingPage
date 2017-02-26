@@ -1,3 +1,10 @@
+@mixin glowing-border($size, $color){
+    -moz-box-shadow: 0 0 $size $color;
+            -webkit-box-shadow: 0 0 $size $color;
+            box-shadow: 0 0 $size $color;
+            border: 1px solid $color;
+}
+
 #signup{
     height: 450px;
     display: flex;
@@ -10,5 +17,34 @@
         text-align: left;
         color: black;
         padding: 10px 0 10px 0;
+    }
+    #form{
+        label{
+            font-size: 1em;
+            letter-spacing: 2px;
+        }
+        input{
+            @extend label;
+            margin-bottom: 2px;
+            padding: 1px;
+        }
+        input[type="text"], input[type="password"]{
+            border: 1px solid #98a8bc;
+            height: 25px;
+            
+        }
+        input[type="text"]:focus, input[type="password"]:focus{
+            @include glowing-border(8px, #88D5E9);
+            
+        }
+        input[type="submit"]{
+            width: 100px;
+            height: 40px;
+            float: right;
+            font-size: 1em;
+            margin-top: 10px;
+            
+        }
+
     }
 }

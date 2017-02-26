@@ -13,7 +13,8 @@ ul.topnav {
       padding: 14px 16px;
       text-decoration: none;
       transition: 0.3s;
-      font-size: 17px; }
+      font-size: 17px;
+      outline: none; }
     ul.topnav li a:hover {
       color: #ce252a; }
   ul.topnav li:last-of-type {
@@ -38,6 +39,26 @@ ul.topnav {
     text-align: left;
     color: black;
     padding: 10px 0 10px 0; }
+  #signup #form label, #signup #form input {
+    font-size: 1em;
+    letter-spacing: 2px; }
+  #signup #form input {
+    margin-bottom: 2px;
+    padding: 1px; }
+  #signup #form input[type="text"], #signup #form input[type="password"] {
+    border: 1px solid #98a8bc;
+    height: 25px; }
+  #signup #form input[type="text"]:focus, #signup #form input[type="password"]:focus {
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9; }
+  #signup #form input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    float: right;
+    font-size: 1em;
+    margin-top: 10px; }
 
 body {
   margin: 0;
