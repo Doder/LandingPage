@@ -60,6 +60,17 @@ ul.topnav {
     font-size: 1em;
     margin-top: 10px; }
 
+#text-columns {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  #text-columns .text-column {
+    width: 32%;
+    float: left; }
+  #text-columns .text-column + .text-column {
+    margin-left: 2%; }
+
 body {
   margin: 0;
   padding: 0; }

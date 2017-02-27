@@ -44,6 +44,56 @@ class SingnUp extends React.Component{
     }
 }
 
+class Text extends React.Component{
+    render(){
+        return(
+            <div className="have-margins" id="text-columns">
+                <div>
+                <h1>Header</h1>
+                
+                <div className="text-column">
+                    <h2>Title 1</h2>
+                    <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Maecenas interdum tortor non libero lacinia, sollicitudin scelerisque nibh 
+                    commodo. Nullam metus eros, ullamcorper a leo quis, tempor varius felis. 
+                    Fusce varius dui elit, ac pulvinar leo aliquam vitae. Quisque ut nulla vel mi 
+                    commodo gravida ac bibendum quam. Donec lobortis ipsum in velit tempor, ac molestie 
+                    enim gravida. Aliquam placerat neque eget placerat imperdiet. Nulla auctor quis risus
+                     ut elementum. 
+                     </div>
+                </div>
+                
+                <div className="text-column">
+                        <h2>Title 2</h2>
+                        <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas interdum tortor non libero lacinia, sollicitudin scelerisque nibh 
+                        commodo. Nullam metus eros, ullamcorper a leo quis, tempor varius felis. 
+                        Fusce varius dui elit, ac pulvinar leo aliquam vitae. Quisque ut nulla vel mi 
+                        commodo gravida ac bibendum quam. Donec lobortis ipsum in velit tempor, ac molestie 
+                        enim gravida. Aliquam placerat neque eget placerat imperdiet. Nulla auctor quis risus
+                        ut elementum. 
+                     </div>
+                </div>
+                
+                <div className="text-column">
+                        <h2>Title 3</h2>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas interdum tortor non libero lacinia, sollicitudin scelerisque nibh 
+                        commodo. Nullam metus eros, ullamcorper a leo quis, tempor varius felis. 
+                        Fusce varius dui elit, ac pulvinar leo aliquam vitae. Quisque ut nulla vel mi 
+                        commodo gravida ac bibendum quam. Donec lobortis ipsum in velit tempor, ac molestie 
+                        enim gravida. Aliquam placerat neque eget placerat imperdiet. Nulla auctor quis risus
+                        ut elementum. 
+                     </div>
+                </div>
+                </div>
+            </div>
+        );
+    }
+}
 
 class Page extends React.Component{
     render(){
@@ -51,10 +101,12 @@ class Page extends React.Component{
             <div>
             <TopNav/>
             <SingnUp/>
+            <Text/>
             </div>
         );
     }
 }
+
 ReactDOM.render(
     <Page/>,
     document.getElementById("main")

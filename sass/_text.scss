@@ -1,0 +1,16 @@
+$rows : 3;
+$margin : 2%;
+
+#text-columns{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .text-column{
+        width: ((100% - (($rows - 1)*$margin)) / $rows);
+        float: left;
+    }
+    .text-column+.text-column{
+        margin-left: $margin;
+    }
+}
