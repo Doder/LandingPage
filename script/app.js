@@ -95,6 +95,20 @@ class Text extends React.Component{
     }
 }
 
+class Gallery extends React.Component{
+    render(){
+        return(
+            <div id="gallery">
+                <div className="have-margins">
+                <div id="img1"></div>
+                <div id="img2"></div>
+                <div id="img3"></div>
+                </div>
+            </div>
+        );
+    }
+}
+
 class Page extends React.Component{
     render(){
         return(
@@ -102,6 +116,7 @@ class Page extends React.Component{
             <TopNav/>
             <SingnUp/>
             <Text/>
+            <Gallery/>
             </div>
         );
     }

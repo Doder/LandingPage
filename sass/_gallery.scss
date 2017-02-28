@@ -1,0 +1,33 @@
+$rows : 3;
+$margin : 2%;
+
+@mixin getImage($number){
+    background: url('../images/sample#{$number}.jpg') -55px -50px;
+}
+
+#gallery{
+    height: 400px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    div{
+        width: 100%;
+        div{
+            width: ((100% - (($rows - 1)*$margin)) / $rows);
+            float: left;
+            height: 200px;
+        }
+        div+div{
+            margin-left: $margin;
+        }
+        #img1{
+            @include getImage(1);
+        }
+        #img2{
+            @include getImage(2);
+        }
+        #img3{
+            @include getImage(3);
+        }
+    }
+}

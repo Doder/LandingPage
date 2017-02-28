@@ -71,6 +71,26 @@ ul.topnav {
   #text-columns .text-column + .text-column {
     margin-left: 2%; }
 
+#gallery {
+  height: 400px;
+  background-color: darkgrey;
+  display: flex;
+  align-items: center; }
+  #gallery div {
+    width: 100%; }
+    #gallery div div {
+      width: 32%;
+      float: left;
+      height: 200px; }
+    #gallery div div + div {
+      margin-left: 2%; }
+    #gallery div #img1 {
+      background: url("../images/sample1.jpg") -55px -50px; }
+    #gallery div #img2 {
+      background: url("../images/sample2.jpg") -55px -50px; }
+    #gallery div #img3 {
+      background: url("../images/sample3.jpg") -55px -50px; }
+
 body {
   margin: 0;
   padding: 0; }
