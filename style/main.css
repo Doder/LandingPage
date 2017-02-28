@@ -23,7 +23,7 @@ ul.topnav {
   ul.topnav .divided + .divided {
     border-left: 1px solid lightgray; }
 
-#topnav {
+#topnav div {
   margin-top: 20px;
   margin-bottom: 20px; }
 
@@ -33,7 +33,10 @@ ul.topnav {
   align-items: center;
   background: url("../images/bg-darker.jpg");
   background-size: 100% 600px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: 0px 2px 2px #888888;
+  z-index: 1; }
   #signup #text {
     width: 40%;
     text-align: left;
@@ -64,7 +67,10 @@ ul.topnav {
   height: 500px;
   display: flex;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 2px 2px #888888;
+  z-index: 1; }
   #text-columns .text-column {
     width: 32%;
     float: left; }

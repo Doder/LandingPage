@@ -1,8 +1,8 @@
 class TopNav extends React.Component{
     render(){
         return(        
-            <div className="have-margins" id="topnav">
-                
+            <div id="topnav">
+                <div className="have-margins">
                 <ul className="topnav">
                     <li><img src="./images/logo.png" width="50px" height="50px"/></li>
                     <li className="divided"><a href="#">Home</a></li>
@@ -10,6 +10,7 @@ class TopNav extends React.Component{
                     <li className="divided"><a href="#">Contact</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
+                </div>
             </div>
         );
     }
@@ -47,8 +48,8 @@ class SingnUp extends React.Component{
 class Text extends React.Component{
     render(){
         return(
-            <div className="have-margins" id="text-columns">
-                <div>
+            <div id="text-columns">
+                <div className="have-margins">
                 <h1>Header</h1>
                 
                 <div className="text-column">
