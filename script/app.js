@@ -57,11 +57,7 @@ class Text extends React.Component{
                     <div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Maecenas interdum tortor non libero lacinia, sollicitudin scelerisque nibh 
-                    commodo. Nullam metus eros, ullamcorper a leo quis, tempor varius felis. 
-                    Fusce varius dui elit, ac pulvinar leo aliquam vitae. Quisque ut nulla vel mi 
-                    commodo gravida ac bibendum quam. Donec lobortis ipsum in velit tempor, ac molestie 
-                    enim gravida. Aliquam placerat neque eget placerat imperdiet. Nulla auctor quis risus
-                     ut elementum. 
+                    commodo. 
                      </div>
                 </div>
                 
@@ -70,11 +66,7 @@ class Text extends React.Component{
                         <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Maecenas interdum tortor non libero lacinia, sollicitudin scelerisque nibh 
-                        commodo. Nullam metus eros, ullamcorper a leo quis, tempor varius felis. 
-                        Fusce varius dui elit, ac pulvinar leo aliquam vitae. Quisque ut nulla vel mi 
-                        commodo gravida ac bibendum quam. Donec lobortis ipsum in velit tempor, ac molestie 
-                        enim gravida. Aliquam placerat neque eget placerat imperdiet. Nulla auctor quis risus
-                        ut elementum. 
+                        commodo. Nullam metus ero
                      </div>
                 </div>
                 
@@ -82,12 +74,7 @@ class Text extends React.Component{
                         <h2>Title 3</h2>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Maecenas interdum tortor non libero lacinia, sollicitudin scelerisque nibh 
-                        commodo. Nullam metus eros, ullamcorper a leo quis, tempor varius felis. 
-                        Fusce varius dui elit, ac pulvinar leo aliquam vitae. Quisque ut nulla vel mi 
-                        commodo gravida ac bibendum quam. Donec lobortis ipsum in velit tempor, ac molestie 
-                        enim gravida. Aliquam placerat neque eget placerat imperdiet. Nulla auctor quis risus
-                        ut elementum. 
+                        Maecenas interdum tortor n
                      </div>
                 </div>
                 </div>
@@ -110,6 +97,53 @@ class Gallery extends React.Component{
     }
 }
 
+class Footer extends React.Component{
+    render(){
+        return(
+            <div id="footer">
+                <div className="have-margins" >
+                <ul>
+                    <li>
+                        <h2>About</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
+                            lacinia, sollicitudin scelerisque nibh 
+                            commodo. Nullam metus eros, ullamcorper a leo quis, 
+                            tempor varius felis.</p>
+                    </li>
+                    
+                    <li>
+                        <h2>About</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
+                            lacinia, sollicitudin scelerisque nibh 
+                            commodo. Nullam metus eros, ullamcorper a leo quis, 
+                            tempor varius felis.</p>
+                    </li>
+                    
+                    <li>
+                        <h2>About</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
+                            lacinia, sollicitudin scelerisque nibh 
+                            commodo. Nullam metus eros, ullamcorper a leo quis, 
+                            tempor varius felis.</p>
+                    </li>
+                    
+                    <li>
+                        <h2>About</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
+                            lacinia, sollicitudin scelerisque nibh 
+                            commodo. Nullam metus eros, ullamcorper a leo quis, 
+                            tempor varius felis.</p>
+                    </li>
+                </ul>
+                </div>
+                <div>
+                    <p>Aleksa Doderovic ©2017</p>
+                </div>
+            </div>
+        );
+    }
+}
+
 class Page extends React.Component{
     render(){
         return(
@@ -118,6 +152,7 @@ class Page extends React.Component{
             <SingnUp/>
             <Text/>
             <Gallery/>
+            <Footer/>
             </div>
         );
     }

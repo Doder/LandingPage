@@ -1,0 +1,30 @@
+$margin: 2%;
+
+#footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    div{
+        display: flex;
+        align-items: center;
+        color: white;
+        ul{
+            list-style-type: none;
+            padding: 0;
+            li{
+                text-align: center;
+                float: left;
+                width: ((100% - (3 * $margin)) / 4);
+            }
+            li+li{
+                margin-left: $margin;
+            }
+        }
+    }
+}
+div:last-child{
+    p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
