@@ -101,9 +101,17 @@ class Footer extends React.Component{
     render(){
         return(
             <div id="footer">
-                <div className="have-margins" >
-                <ul>
-                    <li>
+                <div className="have-margins">
+                <ul id="footer-ul">
+                    <li className="footer-li">
+                        <img src="./images/logo.png" width="50px" height="50px"/>
+                        <p>
+                            Subscribe to our newsletter for the latest updates 
+                            and our weekly curated Sunday Showcase magazine
+                        </p>
+                    </li>
+                    
+                    <li className="footer-li" >
                         <h2>About</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
                             lacinia, sollicitudin scelerisque nibh 
@@ -111,28 +119,25 @@ class Footer extends React.Component{
                             tempor varius felis.</p>
                     </li>
                     
-                    <li>
-                        <h2>About</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
-                            lacinia, sollicitudin scelerisque nibh 
-                            commodo. Nullam metus eros, ullamcorper a leo quis, 
-                            tempor varius felis.</p>
-                    </li>
                     
-                    <li>
-                        <h2>About</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
-                            lacinia, sollicitudin scelerisque nibh 
-                            commodo. Nullam metus eros, ullamcorper a leo quis, 
-                            tempor varius felis.</p>
-                    </li>
-                    
-                    <li>
-                        <h2>About</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum tortor non libero 
-                            lacinia, sollicitudin scelerisque nibh 
-                            commodo. Nullam metus eros, ullamcorper a leo quis, 
-                            tempor varius felis.</p>
+                    <li className="footer-li">
+                        <h2>Follow us</h2>
+                        <div>
+                        <ul id="social">
+                        <li>
+                        <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                        <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                        <a href="#">LinkedIn</a>
+                        </li>
+                        <li>
+                        <a href="#">GitHub</a>
+                        </li>
+                        </ul>
+                        </div>
                     </li>
                 </ul>
                 </div>

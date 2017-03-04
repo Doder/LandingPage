@@ -2,29 +2,50 @@ $margin: 2%;
 
 #footer{
     width: 100%;
-    height: 350px;
+    height: 300px;
     background-color: black;
-    div{
+    img{
+        margin-top:20px;
+    }
+    div:first-of-type{
         display: flex;
         align-items: center;
         color: white;
-        ul{
+        #footer-ul{
             list-style-type: none;
             padding: 0;
-            li{
+            .footer-li{
                 text-align: center;
                 float: left;
-                width: ((100% - (3 * $margin)) / 4);
+                width: ((100% - (2 * $margin)) / 3);
+                
             }
-            li+li{
+            .footer-li+.footer-li{
                 margin-left: $margin;
             }
         }
     }
 }
 div:last-child{
+    text-align: center;
     p{
-        margin-left: auto;
-        margin-right: auto;
+        color: white;
+    }
+}
+
+#social{
+    width: 100%;
+    padding: 0;
+    li{
+        position: relative;
+        width: 100%;
+        float: left;
+        list-style-type: none;
+        text-align: center;
+        a{
+            
+            text-decoration: none;
+            color: white;
+        }
     }
 }
