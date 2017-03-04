@@ -122,11 +122,10 @@ ul.topnav {
         width: 32%; }
       #footer div:first-of-type #footer-ul .footer-li + .footer-li {
         margin-left: 2%; }
-
-div:last-child {
-  text-align: center; }
-  div:last-child p {
-    color: white; }
+  #footer div:last-child {
+    text-align: center; }
+    #footer div:last-child p {
+      color: white; }
 
 #social {
   width: 100%;
